@@ -22,12 +22,21 @@ public class PickUp : MonoBehaviour
     }
     
 
+    int score = 0;
+    UIManager uiManager;
+
+    void Awake()
+    {
+        uiManager = FindObjectOfType<UIManager>();
+    }
+
     void OnTriggerEnter(Collider other)
     {
-         if (other.CompareTag("Player"))
+        if (other.CompareTag("Collectible"))
         {
-            ContadorTexto.instancia.Recolectar();
-            Destroy(gameObject);
+            score++;
+            uiManager.UpdateScore(score);
+            Destroy(other.gameObject);
         }
     }
 }
