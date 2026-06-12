@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e74d007c48ea864eaee37d41d05a6f1
+guid: a978705be62721842bdfb6ed5cc5c242
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,23 +7,54 @@ ModelImporter:
     100002: Cube
     100004: Cube.001
     100006: Cube.003
+    100008: Cube.006
+    100010: Cube.007
     400000: //RootNode
     400002: Cube
     400004: Cube.001
     400006: Cube.003
+    400008: Cube.006
+    400010: Cube.007
     2100000: Marron
     2100002: Gris
-    2100004: Negro
+    2100004: Negro.001
+    2100006: Negro
     2300000: Cube
     2300002: Cube.001
     2300004: Cube.003
+    2300006: Cube.006
+    2300008: Cube.007
     3300000: Cube
     3300002: Cube.001
     3300004: Cube.003
+    3300006: Cube.006
+    3300008: Cube.007
     4300000: Cube
-    4300002: Cube.003
-    4300004: Cube.001
-  externalObjects: {}
+    4300002: Cube.001
+    4300004: Cube.003
+    4300006: Cube.006
+    4300008: Cube.007
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris
+    second: {fileID: 2100000, guid: b2b661e352f6cd34eb096c054faafca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marron
+    second: {fileID: 2100000, guid: 1192ec21ca1750e4686e2d358bccd3a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: d5397414ac6917b4fa8435fbf7eb79a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro.001
+    second: {fileID: 2100000, guid: 85b3eb134512315469f57a6e0f710e58, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

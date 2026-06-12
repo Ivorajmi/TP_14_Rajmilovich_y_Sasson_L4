@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI textScore;
     public TextMeshProUGUI textTimer;
+    public GameObject panelWin;
+    public GameObject panelGameOver;
 
     
     // Start is called before the first frame update
@@ -29,5 +31,14 @@ public class UIManager : MonoBehaviour
     public void UpdateTimer(float timer)
     {
         textTimer.text = "00:" + Mathf.CeilToInt(timer).ToString("00");
+    }
+    public void MostrarPantallaWin()
+    {
+        panelWin.SetActive(true);
+    }
+
+    public void MostrarPantallaGameOver()
+    {
+        panelGameOver.SetActive(true);
     }
 }
