@@ -6,7 +6,7 @@ using TMPro;
 public class PickUp : MonoBehaviour
 {
     int score = 0;
-    int puntajeMaximo = 4; 
+    int puntajeMaximo = 7; 
     UIManager uiManager;
 
     void Awake()
